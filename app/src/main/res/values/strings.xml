@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Spoti Music Player</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_browse">Browse</string>
+    <string name="title_activity_my_music">My Music</string>
+    <string name="title_activity_now_playing">Now Playing</string>
+    <string name="title_activity_search">Search</string>
+
+    <!-- Button texts -->
+    <string name="now_playing_button">Now Playing</string>
+    <string name="my_music_button">My Music</string>
+    <string name="search_button">Search</string>
+</resources>
