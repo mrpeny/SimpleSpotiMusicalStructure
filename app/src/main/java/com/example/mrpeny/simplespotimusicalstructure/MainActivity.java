@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Finds login Button
         Button loginButton = (Button) findViewById(R.id.login_button);
 
+        //Sets login Button's onClickListener with Anonymous Class
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -8,10 +8,6 @@ import com.example.mrpeny.simplespotimusicalstructure.onclicklisteners.MyMusicCl
 import com.example.mrpeny.simplespotimusicalstructure.onclicklisteners.NowPlayingClickListener;
 import com.example.mrpeny.simplespotimusicalstructure.onclicklisteners.SearchClickListener;
 
-/**
- * Created by MrPeny on 2017. 04. 30..
- */
-
 public class BrowseActivity extends AppCompatActivity {
 
     @Override
@@ -19,10 +15,12 @@ public class BrowseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_browse);
 
+        //Find Buttons to different Activities
         Button myMusicButton = (Button) findViewById(R.id.my_music_button);
         Button nowPlayingButton = (Button) findViewById(R.id.now_playing_button);
         Button searchButton = (Button) findViewById(R.id.search_button);
 
+        //Set onClickListeners of the navigation button
         myMusicButton.setOnClickListener(new MyMusicClickListener());
         nowPlayingButton.setOnClickListener(new NowPlayingClickListener());
         searchButton.setOnClickListener(new SearchClickListener());

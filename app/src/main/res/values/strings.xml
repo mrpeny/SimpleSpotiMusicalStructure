@@ -11,4 +11,12 @@
     <string name="now_playing_button">Now Playing</string>
     <string name="my_music_button">My Music</string>
     <string name="search_button">Search</string>
+    <string name="browse_button">Browse</string>
+
+    <!-- MainActivity texts -->
+    <string name="welcome">Welcome</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="main_activity_description">This Activity</string>
 </resources>
