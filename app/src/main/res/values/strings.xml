@@ -14,9 +14,56 @@
     <string name="browse_button">Browse</string>
 
     <!-- MainActivity texts -->
+    <string name="main_activity_description">This Activity is used for authentication and login of
+        the user. \nAuthentication can be made by Spotify Android SDK that contains
+        a library for authentication. AuthenticationRequest\'s instance is an object that
+        helps construct the request that is sent to Spotify authentication and
+        AuthenticationResponse\'s instance is An object that contains the parsed response from it.
+        LoginActivity class manages the login flow. \nAndroid SDK is shared on GitHub.</string>
     <string name="welcome">Welcome</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="main_activity_description">This Activity</string>
+
+    <!-- Browse Activity texts -->
+    <string name="browse_activity_description">After logging into the account user arrives to
+        the Browse screen where she / he can explore new releases, top charts etc.\n
+        However browsing is not part of the Spotify Android SDK with the help of Web API it is
+        possible to send GET requests to Spotify server that sends JSON parsed data back.
+        To manipulate this data it is needed to implement org.json Java library.
+        \nSpotify Web API Android wrapper is available on GitHub</string>
+
+    <!-- Now Playing Activity texts -->
+    <string name="now_playing_description">Now Playing Activity is used for controlling of
+        the currently played track such as start/pause, switch to next, previous track. \nThis can
+        be done via Spotify Android SDK\'s Player library. SpotifyPlayer class is responsible for
+        playback of Spotify content and can be created by getPlayer() method of Spotify class.
+        Metadata.Track object hold information about artist name, album name, duration so that this
+        information can also be displayed on this screen. \nAndroid SDK is shared on GitHub.</string>
+    <string name="title">Beautiful Day</string>
+    <string name="artist">U2</string>
+    <string name="new_releases">New Releases</string>
+    <string name="featured_playlists">Featured Playlists</string>
+    <string name="categories">Categories</string>
+
+    <!-- Search Activity texts -->
+    <string name="search_activity_description">On Search screen user is able to search albums,
+        artists, playlists, and tracks. \nHowever browsing is not part of the Spotify Android SDK
+        with the help of Web API it is possible to send GET requests to Spotify server that
+        sends JSON parsed data back. \nSpotify Web API Android wrapper is available on GitHub that
+        provides SpotifyApi and SpotifyService classes. With the help of them it is
+        possible to communicate with the server and send search requests and getting back
+        corresponding Pager objects for example TracksPager that contains a Pager object
+        with a list of tracks inside.</string>
+    <string name="search">Search</string>
+
+    <!-- Your Music Activity texts-->
+    <string name="my_music_activity_description">On My Music screen user is able to see a list
+        of her / his saved albums. With the help of Spotify Web API Android wrapper it is possible
+        to get the saved tracks of the user. SpotifyApi and SpotifyService classes should by used to
+        retrieve the desired data needed for this Activity. Behind the scenes Web API wrapper
+        communicates with Spotify server through HTTP requests.</string>
+    <string name="song1">U2 - Beautiful Day</string>
+    <string name="song2">Johnny Nash - I Can See Clearly Now</string>
+
 </resources>
